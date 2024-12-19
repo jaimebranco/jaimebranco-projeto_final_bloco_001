@@ -1,13 +1,13 @@
 package livro.model;
 
-public abstract class LivroModel {
+public class Obras {
 	
 	private String nome;
 	private String editora;
 	private String autor;
 	private Integer ano;
 	
-	public LivroModel(String nome, String editora, String autor, Integer ano) {
+	public Obras(String nome, String editora, String autor, Integer ano) {
 		this.nome = nome;
 		this.editora = editora;
 		this.autor = autor;
@@ -46,5 +46,9 @@ public abstract class LivroModel {
 		this.ano = ano;
 	}
 	
+	public void visualizar() {
+		System.out.println(this.nome);
+		
+	}
 
 }
