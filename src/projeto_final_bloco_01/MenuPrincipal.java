@@ -2,8 +2,6 @@ package projeto_final_bloco_01;
 
 import java.util.Scanner;
 
-import conta.util.Cores;
-
 public class MenuPrincipal {
 
 	public static void main(String[] args) {
@@ -18,11 +16,12 @@ public class MenuPrincipal {
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
 			System.out.println("            1 - Cadastrar livro                      ");
-			System.out.println("            2 - Listar livros                        ");
-			System.out.println("            3 - Consultar livro                      ");
-			System.out.println("            4 - Empréstimo                           ");
-			System.out.println("            5 - Devolução                            ");
-			System.out.println("            6 - Sair                                 ");
+			System.out.println("            2 - Excluir livro                        ");
+			System.out.println("            3 - Listar livros                        ");
+			System.out.println("            4 - Consultar livro                      ");
+			System.out.println("            5 - Empréstimo                           ");
+			System.out.println("            6 - Devolução                            ");
+			System.out.println("            7 - Sair                                 ");
 			System.out.println("                         				             ");
 			System.out.println("*****************************************************");
 			System.out.println("Entre com a opção desejada:                          ");
@@ -50,22 +49,27 @@ public class MenuPrincipal {
 				
 				break;
 			case 2:
-				System.out.println("            LISTA DE TODOS OS LIVROS             ");
+				System.out.println("            QUAL LIVRO DESEJA EXCLUIR?           ");
+				
 				
 				break;
 			case 3:
-				System.out.println("               CONSULTA DE LIVROS                ");
+				System.out.println("            LISTA DE TODOS OS LIVROS             ");
 				
 				break;
 			case 4:
+				System.out.println("               CONSULTA DE LIVROS                ");
+				
+				break;
+			case 5:
 				System.out.println("              EMPRÉSTIMO DE LIVROS               ");
 				
 				break;
-			case 5: 
+			case 6: 
 				System.out.println("                  DEVOLUÇÃO                      ");
 				
+				break;	
 				
-				break;		
 			default:
 				System.out.println("             *** opção inválida ***              ");
 				System.out.println("                 Digite novamente                ");
